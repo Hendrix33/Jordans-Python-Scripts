@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup as bs4 #whenever we use bs4.[something], we refer to some part of the BeautifulSoup module
 def downloadPage(url): #a string containing the URL will be the argument
-	r = requests.get(url) #we assign the output of the “get” function from the “requests” module to variable “r”
+	r = requests.get(url): #we assign the output of the “get” function from the “requests” module to variable “r”
 	response = r.content #we use the “content” property to retrieve the content of the page
 	return response #the function will return the content of the page via the “response” variable
 	
