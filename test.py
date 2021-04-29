@@ -7,4 +7,6 @@ print(randomlist)
 
 if randomlist != 3:
     print("this number is not 3")
+else: print("this number is 3 :D")
+
 
